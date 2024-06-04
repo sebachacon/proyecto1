@@ -1,5 +1,6 @@
 fun main() {
-    /*print("Ingrese primer valor:")
+    /*
+    print("Ingrese primer valor:")
      val num1 = readln().toInt()
      print("Ingrese segundo valor:")
      val num2 = readln().toInt()
@@ -12,8 +13,9 @@ fun main() {
              print(num2)
          else
              print(num3);
-*/
-    /* print("Ingrese día:")
+    */
+/*
+    print("Ingrese día:")
      val dia = readln().toInt()
      print("Ingrese mes:")
      val mes = readln().toInt()
@@ -22,8 +24,8 @@ fun main() {
      if (mes == 1 || mes == 2 || mes == 3)
          print("Corresponde al primer trimestre");
  */
-
-    /*print("Ingrese día:")
+/*
+    print("Ingrese día:")
     val dia = readln().toInt()
     print("Ingrese mes:")
     val mes = readln().toInt()
@@ -32,8 +34,8 @@ fun main() {
     if ( mes == 12 && dia == 25)
         print("Corresponde a navidad")
      */
-
-    /*print("Ingrese primer numero:")
+/*
+    print("Ingrese primer numero:")
     val num1 = readln().toInt()
     print("Ingrese segundo numero:")
     val num2 = readln().toInt()
@@ -43,8 +45,8 @@ fun main() {
     if (num1 == num2 && num1 == num3)
         print("El cubo de los numeros son: $cubo")
     */
-
-    /*print("Ingrese primer numero:")
+/*
+    print("Ingrese primer numero:")
     val num1 = readln().toInt()
     print("Ingrese segundo numero:")
     val num2 = readln().toInt()
@@ -53,8 +55,8 @@ fun main() {
     if (num1 < 10 && num2 < 10 && num3 <10)
     print("Todos son menores a diez")
      */
-
-    /*print("Ingrese primer numero:")
+/*
+    print("Ingrese primer numero:")
     val num1 = readln().toInt()
     print("Ingrese segundo numero:")
     val num2 = readln().toInt()
@@ -62,8 +64,9 @@ fun main() {
     val num3 = readln().toInt()
     if (num1 > 10 || num2 > 10 || num3 > 10)
         print("Alguno es mayor a diez")
-*/
-    /*print("Ingrese primer numero:")
+    */
+/*
+    print("Ingrese primer numero:")
     val num1 = readln().toInt()
     print("Ingrese segundo numero:")
     val num2 = readln().toInt()
@@ -71,8 +74,9 @@ fun main() {
     val num3 = readln().toInt()
     if (num1 < 10 || num2 < 10 || num3 < 10)
         print("Alguno es menor a diez")
-*/
-    /*print("Ingrese coordenada x:")
+    */
+/*
+    print("Ingrese coordenada x:")
     val x = readln().toInt()
     print("Ingrese coordenada y:")
     val y = readln().toInt()
@@ -90,8 +94,8 @@ fun main() {
                 else
                     print("Esta en un eje")
     */
-
-    /* print("Ingrese primer valor:")
+/*
+    print("Ingrese primer valor:")
      val valor1 = readln().toInt()
      print("Ingrese segundo valor:")
      val valor2 = readln().toInt()

@@ -61,6 +61,7 @@ print("Estado del alumno $estado")
             if(num <= 9)
             print("Tiene 1 digito")
 */
+    /*
     //Problema 4
     print("Ingrese la cantidad de las respuestas que contesto:")
     val cantidad1 = readln().toInt()
@@ -77,5 +78,7 @@ print("Estado del alumno $estado")
         print ("Nivel regular")
     else
         print ("Fuera de nivel")
+
+     */
 
 }
