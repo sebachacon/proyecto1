@@ -31,7 +31,7 @@ fun main(){
     val promedio = suma / 10
     println("El promedio es $promedio")
     */
-
+/*
     print("Cuantas piezas procesara:")
     val n = readln().toInt()
     var x = 1
@@ -45,4 +45,5 @@ fun main(){
         x++
     }
     print("La cantidad de piezas aptas son: $cantidad")
+    */
 }
