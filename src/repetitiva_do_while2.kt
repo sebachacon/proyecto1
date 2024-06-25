@@ -1,4 +1,5 @@
-fun main(){
+fun main() {
+    /*
     var valorAcumulado = 0
     var entrada: Int
 
@@ -23,33 +24,32 @@ fun main(){
         println("El valor acumulado es menor a cero.")
     }
 
-    var saldos = 0
-    var cuenta: Int
-    var saldo: Double
+     */
+
+    //Problema 2
+
+    var saldos = 0.0
 
     println("Ingrese los datos de las cuentas corrientes. Ingrese un número de cuenta negativo para finalizar.")
 
     do {
         print("Ingrese el número de cuenta: ")
-        cuenta = readLine()!!.toInt()
-
-        if (cuenta >= 0) {
+        val cuenta = readln().toInt()
+        if (cuenta >= 0){
             print("Ingrese el saldo actual: ")
-            saldo = readLine()!!.toDouble()
-
-            (saldo > 0)
+        val saldo = readln().toDouble()
+        if
+                (saldo > 0.0) {
             println("Estado de la cuenta: Acreedor")
-            saldos += saldo.toInt()
-
-            (saldo < 0)
+            saldos += saldo
+        }else
+        if (saldo < 0.0) {
             println("Estado de la cuenta: Deudor")
-        }else{
-            println("Estado de la cuenta: Nulo")
-
-        }
-    } while (cuenta >= 0)
-
-    println("La suma total de los saldos acreedores es: $saldos")
+        }else
+            if (saldo == 0.0)
+                println("Estado de la cuenta: Nulo")}
+    }while (cuenta >= 0)
+            println("La suma total de los saldos acreedores es: $saldos")
 }
 
 
