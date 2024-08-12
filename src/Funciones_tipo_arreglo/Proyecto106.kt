@@ -1,7 +1,7 @@
 package Funciones_tipo_arreglo
 
 fun cargar(): IntArray {
-    print("Cuantos sueldo quiere cargar: ")
+    print("Cuant os sueldo quiere cargar: ")
     val cantidad = readln().toInt()
     val sueldos = IntArray(cantidad)
     for (i in sueldos.indices) {
