@@ -1,6 +1,6 @@
 package Metodos_set_y_get
 
-class Persona {
+class Persona{
     var nombre: String = ""
         set(valor) {
             field = valor.toUpperCase()
